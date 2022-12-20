@@ -1,1 +1,89 @@
 /*Schrijf hier jouw CSS*/
+
+/*Opdracht01*/
+.opdrachtuitwerking-1{
+    display: flex;
+    /*border: 2px solid black;*/
+    justify-content: space-between;
+    /*font-weight: bold;*/
+}
+
+.opdrachtuitwerking-1 > li{
+    font-weight: 600;
+}
+
+/*Opdracht02*/
+.opdrachtuitwerking-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opdrachtuitwerking-2 > li{
+    flex-basis: 100px;
+    flex-grow: 1;
+    font-weight: 600;
+}
+
+.opdrachtuitwerking-3{
+    display: flex;
+    justify-content: space-between;
+    /*border: 2px solid black;*/
+    min-height: 100%;
+}
+
+#top {
+    align-self: flex-start;
+    font-weight: 600;
+}
+
+#centre{
+    align-self: center;
+    font-weight: 600;
+}
+
+#bottom{
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.opdrachtuitwerking-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.opdrachtuitwerking-4 > li{
+    margin-right: 0.8em;
+    font-weight: 600;
+}
+.container5{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.opdrachtuitwerking-5a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.opdrachtuitwerking-5b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opdrachtuitwerking-5c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container5 li{
+    font-weight: 800;
+}
+
