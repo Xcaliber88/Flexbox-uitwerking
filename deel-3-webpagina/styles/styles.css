@@ -1,1 +1,107 @@
 /*Schrijf hier jouw css*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*justify-content: center;*/
+    background-color:#f2f3d9;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 12vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-width: 100vw;
+    align-items: center;
+    background-color: #030027;
+    color: white;
+    justify-content: space-between;
+ }
+
+#home{
+    margin-left: 2em;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 400px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+
+.content{
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7vw;
+    margin-left: 7vw;
+    /*justify-content: space-evenly;*/
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+h3{
+    text-align: center;
+}
+
+.three-columns{
+    display: flex;
+    flex-basis: 350px;
+    /*border: 2px solid black;*/
+    column-gap: 4.5vw;
+}
+
+.art01{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    height: 350px;
+    background-color:#c16e70;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+
+.art02{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    min-height: 350px;
+    background-color:#c16e70;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+.art03{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    min-height: 350px;
+    background-color:#c16e70;
+    border-radius: 5px;
+    justify-content: flex-end;
+}
+
+p{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    margin: 1em;
+}
